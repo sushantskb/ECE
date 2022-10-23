@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Fiesta</title>
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -26,17 +26,17 @@
     </nav>
 
     <!-- 1st code goes here making the header -->
-   <header>
-    <div class="header-content">
-        <h2>
-            <marquee>जीना ECE का नाम है!</marquee> 
-        </h2>
-        <div class="line"></div>
-        <h1>E-Fiesta 2K22</h1>
-        <!-- 3rd cod egoes here, creating the button -->
-        <a href="#" class="ctn">About</a>
-    </div>
-</header>
+    <header>
+        <div class="header-content">
+            <h2>
+                <marquee>जीना ECE का नाम है!</marquee>
+            </h2>
+            <div class="line"></div>
+            <h1><span class="typejs"></span></h1>
+            <!-- 3rd cod egoes here, creating the button -->
+            <a href="#" class="ctn">About</a>
+        </div>
+    </header>
 
 
 
@@ -102,6 +102,22 @@
             navlinks.classList.toggle('mobile-menu')
         })
     </script>
+
+    <script src="type.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed('.typejs', {
+            // Waits 1000ms after typing "First"
+            strings: ['E-FIESTA 2K22.', 'Open For All.'],
+            typeSpeed: 75,
+            backSpeed: 60,
+            backDelay: 500,
+            loop: true
+        });
+    </script>
+
 </body>
 
 </html>

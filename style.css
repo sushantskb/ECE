@@ -457,7 +457,6 @@ body, html {
 /* 47th code goes here, adding animations */
 img {
     transition: transform .3s ease;
-    border-radius: 3.5rem 0;
 }
 
 img:hover {
