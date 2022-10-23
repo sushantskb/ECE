@@ -455,8 +455,10 @@ body, html {
 }
 
 /* 47th code goes here, adding animations */
+
 img {
     transition: transform .3s ease;
+
 }
 
 img:hover {

@@ -2,12 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    /* background-color: rgb(220, 209, 196); */
-}
-.col{
-    /* border: 2px solid black; */
-}
+
 h4{
     font-family: monospace;
     color: rgb(255, 128, 0);
@@ -24,4 +19,9 @@ p{
     color: gray;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
+}
+
+img{
+    transition: transform .3s ease;
+    border-radius: 2.7rem 0;
 }

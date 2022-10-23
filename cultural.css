@@ -20,3 +20,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
 }
+img{
+    transition: transform .3s ease;
+    border-radius: 2.7rem 0;
+}
