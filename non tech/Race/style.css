@@ -120,6 +120,13 @@ li {
     margin: 10px auto;
     border-radius: 5px;
 }
+.line2 {
+    width: 1250px;
+    height: 4px;
+    background: #000000;
+    margin: 30px auto;
+    border-radius: 5px;
+}
 #Main{
     padding: 40px 0;
     color: #080808;
