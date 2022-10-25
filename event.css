@@ -3,7 +3,10 @@
     padding: 0;
 }
 body{
-    background: url('bg_for.jpg');
+    /* background: url('bg_for.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: aliceblue;
 }
 
 h4{
