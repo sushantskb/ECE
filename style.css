@@ -112,6 +112,7 @@ ul {
     width: 40px;
     cursor: pointer;
     display: none;
+   
     /* 26th code goes here, making the menu button diappear */
 }
 
@@ -215,6 +216,7 @@ ul {
         margin: -20px;
         margin-left: 113px;
     }
+    
 }
 
 /* 29th code goes here, i.e styling the section tag*/
@@ -486,3 +488,22 @@ li {
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
+  .container {
+    background-color: black;
+  }
+  .ml-3{
+    color: white;
+  }
+  .text-gray-500 svg{
+    color: white;
+  }
+  .text-gray-500 a{
+    color: white;
+  }
+  .container p{
+    color: white;
+  }
+ 
+ 
+  
+   
