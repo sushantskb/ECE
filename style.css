@@ -119,9 +119,9 @@ ul {
     width: 40px;
     cursor: pointer;
     display: none;
-   
-    /* 26th code goes here, making the menu button diappear */
+   /* 26th code goes here, making the menu button diappear */
 }
+
 
 /* 18th code goes here, making the navbar responsibe */
 @media only screen and (max-width:850px) {
@@ -159,7 +159,6 @@ ul {
         border-bottom-right-radius: 20%;
         /* 25th code goes here, making the right corner stylish */
     }
-
     .nav-links li {
         margin: 30px auto;
     }
@@ -223,7 +222,6 @@ ul {
         margin: -20px;
         margin-left: 113px;
     }
-    
 }
 
 /* 29th code goes here, i.e styling the section tag*/
