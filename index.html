@@ -11,9 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <!-- <div id="loader"></div> -->
-    <!-- 11th code here, making the navbar -->
+<body onload="myFunction()">
     <nav class="navbar">
         <h1 class="logo">E-FIESTA 2K22</h1>
         <ul class="nav-links">
@@ -29,6 +27,7 @@
     </nav>
 
     <!-- 1st code goes here making the header -->
+    <div id="loading"></div>
     <header>
         <div class="header-content">
             <h2>
@@ -158,6 +157,20 @@
             loop: true
         });
     </script>
+
+<script>
+  // $(document).ready(function(){
+    // 	$('div#loading').removeAttr('id');
+  // });
+  var preloader = document.getElementById("loading");
+  // window.addEventListener('load', function(){
+  // 	preloader.style.display = 'none';
+  // 	})
+
+  function myFunction(){
+    preloader.style.display = 'none';
+  };
+</script>
 
 </body>
 
