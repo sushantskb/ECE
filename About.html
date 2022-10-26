@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="About.css">
+    <link id='favicon' rel="shortcut icon" href="ece.png" type="image/x-png">
+
+</head>
+<body>
+
+    <!-- NAV SECTION -->
+    
+    <nav class="navbar">
+        <h1 href="#" class="logo">E-FIESTA 2K22</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="event.html">Technical</a></li>
+            <li><a href="non.html">Non-Technical</a></li>
+            <li><a href="cultural.html">Cultural</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <img src="menu-btn2.png" alt="" class="menu-btn">
+    </nav>
+
+    <!-- NAV ENDS HERE -->
+
+<h1 class="title">ABOUT US</h1>
+<div class="line"></div>
+
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded" alt="hero" src="gietlogo.jpg">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">GANDHI INSTITUTE OF ENGINEERING AND TECHNOLOGY UNIVERSITY
+        <br class="hidden lg:inline-block">Gunupur,Odisha
+      </h1>
+      <p class="mb-8 leading-relaxed">Established in 1997, Gandhi Institute of Engineering and Technology is one of the finest Engineering institutions in India. Known for it's highest placement records over the years, it's emerged as the best University in Eastern India.  GIET includes various schools such as School of Engineering and Technology, School of Humanities & Social Studies, School of Agriculture,School of Sciences and School of Management Studies. In 2019 it was conferred the rank of University by the Government of Odisha and also approved by UGC. It is also  recognized by the Department of Scientific and Industrial Research (DSIR) and approved by the All India Council for Technical Education (AICTE).</p>
+      <div class="flex justify-center">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded" alt="hero" src="gietlogo2.jpg">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">25 Years of Excellence
+        <br class="hidden lg:inline-block">
+      </h1>
+      <p class="mb-8 leading-relaxed">Today GIET is in it's 25th year of excellence. And to mark this milestone, various events were organized like The Smart India Hackathon, The blood donation Camp, and much more. GIET is home to more than 4000 students now. And with award, accolades and recognitions it only aims to achieve new heights .</p>
+      <div class="flex justify-center">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+
+
+
+
+<!-- SCRIPT HERE -->
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click', () => {
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>
