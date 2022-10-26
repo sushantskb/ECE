@@ -57,20 +57,6 @@ ul {
     margin: 0 30px;
 }
 
-/* .nav-links ul li a::after{
-    content:'';
-    width: 0%;
-    height: 3px;
-    background: #080808;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.3s;
-}
-
-.nav-links ul li a:hover::after{
-    width: 100%;
-} */
 li {
     display: inline-block;
     vertical-align: middle;
