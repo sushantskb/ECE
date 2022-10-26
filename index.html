@@ -23,7 +23,7 @@
             <li><a href="contact.html">CONTACT US</a></li>
         </ul>
         <!-- 19th code goes here, adding the menu button for mobile view -->
-        <img src="menu-btn.png" alt="" class="menu-btn">
+        <img src="menu-btn.png" alt="" class="menu-btn" onclick="myFunction()">
     </nav>
 
     <!-- 1st code goes here making the header -->
@@ -31,9 +31,13 @@
     <header>
         <div class="header-content">
             <h2>
-                <marquee>जीना ECE का नाम है!</marquee>
+                "जीना ECE का नाम है"
             </h2>
+          
             <div class="line"></div>
+            <h3>
+              <marquee behavior="" direction="">First Year Batch (2020-26) are only allowed for technical events</marquee>
+          </h3>
             <h1><span class="typejs"></span></h1>
             <!-- 3rd cod egoes here, creating the button -->
             <a href="About.html" class="ctn">About</a>
@@ -143,6 +147,19 @@
         })
     </script>
 
+    <script>
+      function myFunction
+      () {
+        var x = document.getElementsByTagName("h3");
+        if(x.style.display == "none"){
+          x.style.display = "block";
+        }
+        else{
+          x.style.display = "none";
+        }
+      }
+    </script>
+
     <script src="type.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -159,15 +176,9 @@
     </script>
 
 <script>
-  // $(document).ready(function(){
-    // 	$('div#loading').removeAttr('id');
-  // });
-  var preloader = document.getElementById("loading");
-  // window.addEventListener('load', function(){
-  // 	preloader.style.display = 'none';
-  // 	})
+    var preloader = document.getElementById("loading");
 
-  function myFunction(){
+    function myFunction(){
     preloader.style.display = 'none';
   };
 </script>
