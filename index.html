@@ -2,186 +2,215 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Fiesta</title>
-    <link rel="stylesheet" href="style.css">
-    <link id="favicon" rel="shortcut icon" href="ece.png" type="image/x-png">
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Fiesta</title>
+  <link rel="stylesheet" href="style.css">
+  <link id="favicon" rel="shortcut icon" href="ece.png" type="image/x-png">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body onload="myFunction()">
-    <nav class="navbar">
-        <h1 class="logo">E-FIESTA 2K22</h1>
-        <ul class="nav-links">
-            <li><a href="#">HOME</a></li> <!-- 16th code goes, here adding the class name to the HOME -->
+  <nav class="navbar">
+    <h1 class="logo">E-FIESTA 2K22</h1>
+    <ul class="nav-links">
+      <li><a href="#">HOME</a></li> <!-- 16th code goes, here adding the class name to the HOME -->
 
-            <li><a href="#technical">TECHNICAL</a></li>
-            <li><a href="#non-technical">NON-TECHNICAL</a></li>
-            <li><a href="#cultural">CULTURAL</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
-        </ul>
-        <!-- 19th code goes here, adding the menu button for mobile view -->
-        <img src="menu-btn.png" alt="" class="menu-btn" onclick="myFunction()">
-    </nav>
+      <li><a href="#technical">TECHNICAL</a></li>
+      <li><a href="#non-technical">NON-TECHNICAL</a></li>
+      <li><a href="#cultural">CULTURAL</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+    <!-- 19th code goes here, adding the menu button for mobile view -->
+    <!-- <button onclick="myFunction()"><img src="menu-btn.png" alt="" class="menu-btn"></button> -->
 
-    <!-- 1st code goes here making the header -->
-    <div id="loading"></div>
-    <header>
-        <div class="header-content">
-            <h2>
-                "जीना ECE का नाम है"
-            </h2>
-          
-            <div class="line"></div>
-            <h3>
-              <marquee behavior="" direction="">First Year Batch (2020-26) are only allowed for technical events</marquee>
-          </h3>
-            <h1><span class="typejs"></span></h1>
-            <!-- 3rd cod egoes here, creating the button -->
-            <a href="About.html" class="ctn">About</a>
-        </div>
-    </header>
+    <img src="menu-btn.png" alt="" class="menu-btn" onclick="myFunction()">
+  </nav>
 
+  <!-- 1st code goes here making the header -->
+  <div id="loading"></div>
+  <header>
+    <div class="header-content">
+      <h2>
+        "जीना ECE का नाम है"
+      </h2>
 
-
-    <!-- 35th code goes here, adding the explore section in the website -->
-
-    <section class="explore" id="technical">
-        <div class="explore-content">
-            <h1>Technical Events</h1>
-            <div class="line"></div>
-            <p>
-                New experiences bring us new knowledge. These event, offer the opportunity to discover or develop an
-                inner skill from which you can make a difference through technical events and to show case your
-                technical skills
-            </p>
-            <a href="event.html" class="ctn">Register</a>
-        </div>
-    </section>
-
-
-    <!-- non-technical -->
-    <section class="explore2" id="non-technical">
-        <div class="explore-content2">
-            <h1>Non-Technical Events</h1>
-            <div class="line"></div>
-            <p>
-              Non-technical skills are those that you possess that are unrelated to your specific job. These skills, also known as soft skills, are more concerned with your personal characteristics and habits than with your technical abilities. These abilities influence how you interact with others and complete your work. Participate in all events and have the most fun possible.
-            </p>
-            <a href="non.html" class="ctn">Register</a>
-        </div>
-    </section>
-
-    <!-- cultural -->
-    <section class="explore3" id="cultural">
-        <div class="explore-content3">
-            <h1>Cultural Events</h1>
-            <div class="line"></div>
-            <p>
-                Cultural events are events designed for entertainment and enjoyment of the audience. They are events of some importance related to some branch of art, culture or values. These events aim to propagate and disseminate cultural themes. It develop the process of interaction and relationship of all the participants. At the same time, they create the necessary structure for the development of interaction and relationships. It can increase individuals' confidence and give them the opportunity of effecting their personal life and development.
-            </p>
-            <a href="cultural.html" class="ctn">Register</a>
-        </div>
-    </section>
+      <div class="line"></div>
+      <h3>
+        <span class="typejs1">
+        </span>
+      </h3>
+      <h1><span class="typejs"></span></h1>
+      <!-- 3rd cod egoes here, creating the button -->
+      <a href="About.html" class="ctn">About</a>
+    </div>
+  </header>
 
 
 
+  <!-- 35th code goes here, adding the explore section in the website -->
 
-    <!-- 40th code goes here, i.e, adding the footer -->
-    <!-- <section class="footer">
+  <section class="explore" id="technical">
+    <div class="explore-content">
+      <h1>Technical Events</h1>
+      <div class="line"></div>
+      <p>
+        New experiences bring us new knowledge. These event, offer the opportunity to discover or develop an
+        inner skill from which you can make a difference through technical events and to show case your
+        technical skills
+      </p>
+      <a href="event.html" class="ctn">Register</a>
+    </div>
+  </section>
+
+
+  <!-- non-technical -->
+  <section class="explore2" id="non-technical">
+    <div class="explore-content2">
+      <h1>Non-Technical Events</h1>
+      <div class="line"></div>
+      <p>
+        Non-technical skills are those that you possess that are unrelated to your specific job. These skills, also
+        known as soft skills, are more concerned with your personal characteristics and habits than with your technical
+        abilities. These abilities influence how you interact with others and complete your work. Participate in all
+        events and have the most fun possible.
+      </p>
+      <a href="non.html" class="ctn">Register</a>
+    </div>
+  </section>
+
+  <!-- cultural -->
+  <section class="explore3" id="cultural">
+    <div class="explore-content3">
+      <h1>Cultural Events</h1>
+      <div class="line"></div>
+      <p>
+        Cultural events are events designed for entertainment and enjoyment of the audience. They are events of some
+        importance related to some branch of art, culture or values. These events aim to propagate and disseminate
+        cultural themes. It develop the process of interaction and relationship of all the participants. At the same
+        time, they create the necessary structure for the development of interaction and relationships. It can increase
+        individuals' confidence and give them the opportunity of effecting their personal life and development.
+      </p>
+      <a href="cultural.html" class="ctn">Register</a>
+    </div>
+  </section>
+
+
+
+
+  <!-- 40th code goes here, i.e, adding the footer -->
+  <!-- <section class="footer">
         <p>123 Fifth Avenue, NY 1060, New York, USA | Phone: 800-123-456 | Email: contact@example.com</p>
         <p>Copyright &copy; 2022 Outdoor Adventure</p>
     </section> -->
 
-    <!--Footer Section-->
+  <!--Footer Section-->
 
-    <footer class="text-gray-600 body-font">
-        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <img src="ece.png" alt="" width="36px">
-            <span class="ml-3 text-xl">E-FIESTA 2K22</span>
-          </a>
-          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Associate Sponsers —
-            
-            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">New Mirchi Masala Restaurant</a>
-          </p>
-          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a class="text-gray-500" href="https://www.facebook.com/profile.php?id=100086989900079" target="_blank">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500" href="https://twitter.com/EFIESTA2k22?t=Hm0xic6uYI8Q0eI6XznjCg&s=08" target="_blank">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500" href="https://instagram.com/e_fiesta_2k22?igshid=YmMyMTA2M2Y" target="_blank">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
-            </a>
-          </span>
-        </div>
-      </footer>
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="ece.png" alt="" width="36px">
+        <span class="ml-3 text-xl">E-FIESTA 2K22</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Associate
+        Sponsers —
+
+        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">New
+          Mirchi Masala Restaurant</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500" href="https://www.facebook.com/profile.php?id=100086989900079" target="_blank">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://twitter.com/EFIESTA2k22?t=Hm0xic6uYI8Q0eI6XznjCg&s=08"
+          target="_blank">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://instagram.com/e_fiesta_2k22?igshid=YmMyMTA2M2Y" target="_blank">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
 
 
 
 
-    <!-- 23rd code goes here, adding the javascript to make the menu-button work -->
-    <script>
-        const menuBtn = document.querySelector('.menu-btn')
-        const navlinks = document.querySelector('.nav-links')
+  <!-- 23rd code goes here, adding the javascript to make the menu-button work -->
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
 
-        menuBtn.addEventListener('click', () => {
-            navlinks.classList.toggle('mobile-menu')
-        })
-    </script>
+    menuBtn.addEventListener('click', () => {
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
 
-    <script>
-      function myFunction
-      () {
-        var x = document.getElementsByTagName("h3");
-        if(x.style.display == "none"){
-          x.style.display = "block";
-        }
-        else{
-          x.style.display = "none";
-        }
+  <script>
+    function myFunction() {
+      console.log(entered);
+      var x = document.getElementById('hideme');
+      if (x.style.display == "none") {
+        x.style.display = "block";
       }
-    </script>
+      else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 
-    <script src="type.js"></script>
+  <script src="type.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    <script>
-        var typed = new Typed('.typejs', {
-            // Waits 1000ms after typing "First"
-            strings: ['E-FIESTA 2K22.', 'Open For All.'],
-            typeSpeed: 75,
-            backSpeed: 60,
-            backDelay: 500,
-            loop: true
-        });
-    </script>
+  <script>
+    var typed = new Typed('.typejs', {
+      // Waits 1000ms after typing "First"
+      strings: ['E-FIESTA 2K22.', 'Open For All.'],
+      typeSpeed: 75,
+      backSpeed: 60,
+      backDelay: 500,
+      loop: true
+    });
+    
+    var typed1 = new Typed('.typejs1', {
+      // Waits 1000ms after typing "First"
+      strings: ['','First Year Batch (2022-26) are only allowed for technical events.'],
+      typeSpeed: 75,
+      backSpeed: 60,
+      backDelay: 500,
+      loop: true
+    });
+  </script>
 
-<script>
+  <script>
     var preloader = document.getElementById("loading");
 
-    function myFunction(){
-    preloader.style.display = 'none';
-  };
-</script>
+    function myFunction() {
+      preloader.style.display = 'none';
+    };
+  </script>
 
 </body>
 
