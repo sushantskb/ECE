@@ -555,7 +555,14 @@ li {
   .container p{
     color: white;
   }
- 
+ .t-shirts h2{
+    text-align: center;
+    font-size: 1.5rem;
+ }
+ .t-shirts a{
+    position: absolute;
+    margin: 6px 553px;
+ }
  
   
    
